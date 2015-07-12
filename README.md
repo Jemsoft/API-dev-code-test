@@ -7,7 +7,7 @@ This is a simple project based code test to be completed using hosted version co
  - ODM: Mongoose
  - Testing Framework: Jasmin or equivilent 
  - Task Runners: your choice of grunt, gulp, bower, etc etc
- - Authentication: Oauth (cooked into loopback)
+ - Authentication: Oauth (cooked into loopback)a
  
 ###Workflow
  - Github to be used for version control
@@ -40,11 +40,13 @@ They shall be able to add attributes and tags to the image dynamically, as well 
 
 Implement API metering per access key. All read calls to a publicly exposed image shall be appended to the meterage of the image owner’s account.
 
-The only endpoints strictly required are one the handle and interact with image resources, and one to check account properties such as api call quota usage.
+The only endpoints strictly required are one to handle and interact with image resources, and one to check account properties such as api call quota usage.
 
 The Endpoints , stack, workflow, and deployment workflow shall be documented in a readme.
 
 The project should be hosted for free on Heroku, AWS, or similar.
+
+Just to re-iterate, almost all of the functionality required here is provided by loop back and the opensource loopback gateway, so what we'll be looking closely at is any changes you choose to make outside of the yeoman generator.
 
 
 
