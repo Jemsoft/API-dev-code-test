@@ -5,14 +5,14 @@ This is a simple project based code test to be completed using hosted version co
  - Node Framework: Loopback
  - Database: MongoDB
  - ODM: Mongoose
- - Testing Framework: Jasmine or equivilent 
- - Task Runners: your choice of grunt, gulp, bower, etc etc
- - Authentication: Oauth (cooked into loopback)a
+ - Testing Framework: Jasmine or equivalent
+ - Task Runners: your choice of grunt, gulp, bower, etc.
+ - Authentication: Oauth (cooked into loopback)
  
 ###Workflow
  - Github to be used for version control
  - Gitflow (or feature branch at a minimum) workflow to be followed
- - Test driven development is favourable, good test coverage is imperative
+ - Test-driven development is favourable, good test coverage is imperative
  
 ###What we'll be looking for
 - Clean, intelligent code
@@ -28,7 +28,7 @@ This is a simple project based code test to be completed using hosted version co
 - node.js - cluster friendly/oriented code (the API you’ll be working on if hired will serve tens of millions of calls per month)
 
 ##Brief
-A lot (most) of the functionality requested is provided by loopback and associated open source projects. We won’t hate on you for rolling your own modules, but it’s not necessary.
+A lot (most) of the functionality requested is provided by loopback and associated open source projects. We won’t hate on you for rolling your own modules, it's just not necessary.
 
 Using loopback.js create a simple restful API to handle images in both persistent storage and in volatile memory operations (controlled via a header option).
 
@@ -46,7 +46,7 @@ The Endpoints , stack, workflow, and deployment workflow shall be documented in 
 
 The project should be hosted for free on Heroku, AWS, or similar.
 
-Just to re-iterate, almost all of the functionality required here is provided by loop back and the opensource loopback gateway, so what we'll be looking closely at is any changes you choose to make outside of the yeoman generator.
+Just to reiterate, almost all of the functionality required here is provided by loop back and the opensource loopback gateway, so what we'll be looking closely at is any changes you choose to make outside of the yeoman generator.
 
 
 
