@@ -1,11 +1,11 @@
 # Jemsoft API Developer Code test
 
-This is a simple project based code test to be completed using hosted version control to allow Jemsoft engineers to gauge your skills, aptitude, practices and workflows.
+This is a simple project based code test to be completed using hosted version control to allow us to gauge your skills, aptitude, practices and workflows.
 ###Stack
  - Node Framework: Loopback
  - Database: MongoDB
  - ODM: Mongoose
- - Testing Framework: Jasmin or equivilent 
+ - Testing Framework: Jasmine or equivilent 
  - Task Runners: your choice of grunt, gulp, bower, etc etc
  - Authentication: Oauth (cooked into loopback)a
  
