@@ -10,6 +10,7 @@ This is a simple project based code test to be completed using hosted version co
  - Authentication: Oauth (cooked into loopback)
  
 ###Workflow
+ - Use the built in yeoman generator, this will save you time and build your routes and models.
  - Github to be used for version control
  - Gitflow (or feature branch at a minimum) workflow to be followed
  - Test-driven development is favourable, good test coverage is imperative
@@ -32,9 +33,9 @@ A lot (most) of the functionality requested is provided by loopback and associat
 
 Using loopback.js create a simple restful API to handle images in both persistent storage and in volatile memory operations (controlled via a header option).
 
-Another header option shall be whether the image is accessible publicly or via their api key only. default should be public. Amin roles can access all images.
+Another header option shall be whether the image is accessible publicly or via their api key only. default should be public. Admin roles can access all images.
 
-The API should allow users to store their own images with both an auto generated alphanumeric ID and a self chosen label, either in a database to be readable and editable later, or in memory only for handling for until their session is closed;
+The API should allow users to store their own images with both an auto generated alphanumeric ID and a self chosen label, either in a database to be readable and editable later, or in memory only for handling until their session is closed;
 
 They shall be able to add attributes and tags to the image dynamically, as well as add comments to the image.
 
